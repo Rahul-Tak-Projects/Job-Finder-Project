@@ -1,0 +1,449 @@
+/* variable  */
+:root{
+    --swiper-theme-color: #FF4357 !important;
+}
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: #28395a;
+}
+
+h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #28395A;
+}
+
+h5 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+h6 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* navbar css start  */
+.btn {
+    border-radius: 0px;
+}
+
+.btn_registration {
+    background-color: #FB246A;
+    color: white;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn_login {
+    border: 1px solid #FB246A;
+    color: #FB246A;
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.navbar-nav>li {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.navbar-nav>li>a {
+    color: rgba(0, 0, 0, 0.852) !important;
+}
+
+.navbar-nav>li>a:hover {
+    color: #FB246A !important;
+}
+
+.dropdown-item:hover {
+    color: #FB246A;
+}
+
+.btn_registration:hover {
+    color: white !important;
+}
+
+/* poster section css start  */
+.poster_top {
+    background-image: url(./Images/poster_top_section_background_ig.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 41px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 27px;
+    }
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #777777;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+
+}
+
+select:focus {
+    box-shadow: none !important;
+}
+
+select>option {
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #616875;
+}
+
+select {
+
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #616875;
+}
+
+.find_job {
+    background-color: #FB246A;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.find_job :focus {
+    background-color: yellow;
+}
+
+/* <!-- Categories section start  --> */
+
+.sub_headding_categories_section {
+    color: #fb246a;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.icon {
+    font-size: 60px;
+    color: #5383a7;
+}
+
+.bracket_number {
+    color: #FB246A;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon {
+    transition: all 0.4s ease;
+}
+
+.icon_parent:hover .icon {
+    color: #FB246A;
+}
+
+.icon_parent:hover .name_icon {
+    color: #FB246A;
+}
+
+.icon_parent:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.3s ease;
+}
+
+.name_icon {
+    transition: all 0.4s ease;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.browse_sector_btn>span {
+    color: #8B94DF;
+}
+
+/* upload cv section start  */
+
+.upload_cv {
+    background-image: linear-gradient(10deg, rgba(40, 46, 91, 0.833), rgba(52, 60, 116, 0.829)), url(./Images/upload\ cv_bg_img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.cv_subheading {
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cv_heading {
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.cv_upload_btn>span {
+    color: #8B94DF;
+}
+
+.cv_upload_btn {
+    border: 1px solid #767ece !important;
+}
+
+@media (max-width: 767px) {
+    .cv_heading {
+        font-size: 27px;
+    }
+}
+
+/* recent job section start  */
+.job_post{
+    color: #232538;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+}
+
+/* How its work section start css  */
+.how_work {
+    background-image: url(./Images/how_its_work_bg_img.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.howitswork {
+    color: white;
+}
+
+.how_icons {
+    color: white;
+    font-size: 60px;
+}
+
+.icon_block {
+    background-color: #26317F;
+}
+
+.how_icons {
+    transition: all 0.6s ease;
+
+}
+
+.icon_block:hover .how_icons {
+    transform: scaleX(-1);
+}
+
+/* <!-- Recent job section start  --> */
+.recent_job {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #fb246a;
+}
+
+.job_info {
+    color: #808080;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+
+}
+.job_detail_ul>ul>li{
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #808080;
+}
+.fulltime_btn{
+    border: 1px solid #8B92DD;
+    border-radius: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #8B92DD;
+}
+.box_shadow_recentjob:hover{
+    box-shadow: rgba(177, 170, 170, 0.2) 0px 2px 10px 0px;
+}
+.box_shadow_recentjob{
+    transition: all 0.2s;
+}
+/* swiper css  */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_pic{
+    height: 130px;
+    width: 130px ;
+}
+.profile_name{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3f4451;
+}
+.profil_post{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.profile_about{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/* <!-- What we are doing section start  --> */
+.since{
+    width: 150px;
+    height: 120px;
+    background-color: #1F2B7B;
+    border-radius: 4px;
+    bottom: 0px;
+    left: 12px;
+     
+}
+.since_text{
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+@media (min-width: 992px) {
+    .since{
+        bottom: 0px;
+        left: -15%;
+    }
+}
+@media (min-width: 1200px) { 
+    .since{
+        width: 200px;
+        height: 180px;
+         
+    }
+ }
+ .we_are_doing{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #fb246a;
+    font-weight: 400;
+ }
+
+ /* our latest blog section start  */
+
+ .blog_date{
+    width: 110px;
+    height: 80px;
+    background-color: #FF2424;
+    left: 0px;
+    bottom: 0px;
+ }
+ .overflow-hidden>img{
+    transition: all 0.4s;
+ }
+ .img_latest_blog:hover .overflow-hidden>img{
+    transform: scale(1.1);
+   
+ }
+ footer{
+    background-color: #010B1D;
+ }
+ footer p{
+    color: #868c98;
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ h4{
+    font-weight: 400;
+    font-size: 20px;
+ }
+ .footer_a{
+    font-weight: 300;
+    font-size: 16px;
+    color: #7c8893;
+    transition: all 0.4s;
+    line-height: 1.90;
+ }
+ .footer_a:hover{
+    color: #fb246a;
+    padding-left: 5px;
+ }
+ .footer_number{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Mulish', sans-serif;
+
+ }
+ 
+ 
